@@ -1,0 +1,86 @@
+.yourtastes__first-wrapper {
+  width: 100%;
+  height: 443px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: red; */
+}
+
+.yourtastes__first {
+  width: 100%;
+  max-width: 1336px;
+  height: 418px;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--secondaryBorderRadius);
+  border: 1px solid var(--primaryColor);
+  background-color: var(--secondaryColor);
+  gap: 1px;
+}
+
+.yourtaste__first {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 20px;
+  background-color: #fff;
+}
+
+.yourtaste__first:first-of-type {
+  border-radius: 0 var(--secondaryBorderRadius) var(--secondaryBorderRadius) 0;
+}
+
+.yourtaste__first:last-of-type {
+  border-radius: var(--secondaryBorderRadius) 0 0 var(--secondaryBorderRadius);
+}
+
+.yourtaste__first__title {
+  font-family: var(--IranYekanBold);
+  font-size: 16px;
+  line-height: 34px;
+  color: #23254e;
+}
+
+.yourtaste__first__subtitle {
+  font-family: var(--IranYekanRegular);
+  font-size: 11px;
+  line-height: 24px;
+  color: #81858b;
+}
+
+.yourtaste__first-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  width: 293px;
+  background-color: var(--secondaryColor);
+  margin: 8px 0 4px 0;
+}
+
+.yourtaste__first__item-anchor {
+  width: 146px;
+  height: 146px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.yourtaste__first-img {
+  width: 130px;
+  height: 130px;
+}
+
+.yourtaste__first__all {
+  display: flex;
+  justify-content: center;
+}
+
+.yourtaste__first__all-anchor {
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  line-height: 26px;
+  color: #19bfd3;
+  display: flex;
+  align-items: center;
+}

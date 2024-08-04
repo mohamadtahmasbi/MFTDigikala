@@ -1,0 +1,113 @@
+.supermarket__amazings {
+  height: 142px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.supermarket__amazings-anchor {
+  width: 100%;
+  max-width: 1336px;
+  height: 110px;
+  border-radius: var(--secondaryBorderRadius);
+  font-family: var(--IranYekanBold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    267.6deg,
+    rgba(2, 154, 73, 0.03) 0,
+    rgba(242, 242, 242, 0) 100%
+  );
+  background-color: #f0f0f1;
+}
+
+.supermarket__amazings-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 40px;
+}
+
+.supermarket__amazings-title {
+  width: 250px;
+}
+
+.supermarket__amazings__off {
+  width: 110px;
+  height: 28px;
+  background-color: #489b4a;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supermarket__amazings-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: url("../../images/f-supermarket-amazings/super-amazing-1.svg");
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding-left: 40px;
+}
+
+.supermarket__amazings__products {
+  display: flex;
+  gap: 8px;
+}
+
+.supermarket__amazings__product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  width: 74px;
+  height: 74px;
+  background-color: #fff;
+  border-radius: 100%;
+
+  .supermarket__amazings__product-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+  }
+
+  .supermarket__amazings__product__off {
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    right: 0;
+    bottom: 0;
+    border-radius: 100px;
+    font-size: 12px;
+    background-color: #d33a30;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+  }
+}
+
+.supermarket__amazings__more {
+  width: 143px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  font-size: 12px;
+  color: #029a49;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

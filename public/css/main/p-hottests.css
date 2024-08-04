@@ -1,0 +1,116 @@
+.hottests-wrapper {
+  height: 421px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hottestsSwiper {
+  width: 100%;
+  max-width: 1336px;
+  height: 404px;
+  border: 1px solid var(--primaryColor);
+  border-radius: var(--secondaryBorderRadius);
+  padding: 16px 0 28px 10px !important;
+}
+
+.hottests__title {
+  font-family: var(--IranYekanMedium);
+  font-size: 21px;
+  line-height: 44px;
+  color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 28px 0;
+  padding-left: 6px;  
+  gap: 8px;
+  .hottests__title-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.hottests {
+  padding-right: 8px !important;
+  .hottest:first-of-type {
+    .hottest__column {
+      padding-right: 0;
+    }
+  }
+}
+
+.hottest {
+  width: fit-content !important;
+}
+
+.hottest__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 315px;
+  padding: 0 10px;
+  box-sizing: content-box;
+}
+
+.hottest-anchor {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hottest-img {
+  width: 86px;
+}
+
+.hottest__num {
+  font-family: var(--IranYekanExtrabold);
+  color: #19bfd3;
+  font-size: 26px;
+  line-height: 55px;
+  width: 25px;
+}
+
+.hottest__name {
+  font-family: var(--IranYekanRegular);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #3f4064;
+  width: 100%;
+  height: 52px;
+
+  .hottest__name-p-oneline {
+    line-height: 52px;
+  }
+
+  .hottest__name-p:not(.hottest__name-p-oneline) {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.hottest-anchor:not(:first-of-type) {
+  .hottest__name::before {
+    display: block;
+    position: relative;
+    top: -28px;
+    content: "";
+    height: 1.5px;
+    background-color: var(--secondaryColor);
+  }
+}
+
+.hottests__button__prev-swiper {
+  right: 15px !important;
+}
+
+.hottests__button__next-swiper {
+  left: 15px !important;
+}
+
+.hottests__button__next-swiper,
+.hottests__button__prev-swiper {
+  top: 240px !important;
+}

@@ -1,0 +1,88 @@
+.digiclub__wrapper {
+  width: 100%;
+  height: 103px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.digiclub {
+  width: 100%;
+  max-width: 1336px;
+  height: 87px;
+  border-radius: var(--secondaryBorderRadius);
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+.digiclub__item {
+  display: flex;
+  align-items: center;
+}
+
+.digiclub__logo-anchor {
+  display: flex;
+  align-content: center;
+  padding-right: 24px;
+}
+
+.digiclub__logo {
+  width: 119px;
+}
+
+.digiclub__left {
+  display: flex;
+  gap: 4px;
+}
+
+.digiclub__item-anchor {
+  height: 63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding-right: 16px;
+}
+
+.digiclub__item:first-of-type {
+  .digiclub__item-anchor {
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+.digiclub__item:last-of-type {
+  .digiclub__item-anchor {
+    border-radius: 8px 0 0 8px;
+  }
+  .digiclub__item-img {
+    border-radius: 8px 0 0 8px;
+  }
+}
+
+.digiclub__item__title {
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #0c0c0c;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  .digiclub__item-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.digiclub__item-img {
+  width: 168px;
+  height: 63px;
+  object-fit: cover;
+  border-width: 2px 0 2px 0;
+  border-color: #fff;
+  border-style: solid;
+}

@@ -1,0 +1,80 @@
+.pop__brands-wrapper {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.popularSwiper {
+  width: 100%;
+  max-width: 1336px;
+  height: 224px;
+  border: 1px solid var(--primaryColor);
+  border-radius: var(--secondaryBorderRadius);
+  padding: 24px 0 24px 10px !important;
+}
+
+.pop__brands__title {
+  font-family: var(--IranYekanMedium);
+  font-size: 21px;
+  line-height: 44px;
+  color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 0 10px 12px 0;
+  .pop__brands__title-img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.pop__brands {
+  display: flex;
+  width: 100% !important;
+  padding-right: 16px !important;
+}
+
+.pop__brand {
+  width: 110px !important;
+  height: 118px !important;
+  display: flex !important;
+  align-items: center;
+  box-sizing: content-box;
+  padding-left: 16px !important;
+}
+
+.pop__brand:not(:first-of-type) {
+  padding-right: 16px !important;
+}
+
+.pop__brand:not(:last-of-type) {
+  border-left: 1px solid var(--secondaryColor);
+}
+
+.pop__brand-anchor {
+  width: inherit;
+  height: 110px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.pop__brand-img {
+  width: inherit;
+}
+
+.pop__brand__button__prev-swiper {
+  right: 9px !important;
+}
+
+.pop__brand__button__next-swiper {
+  left: 9px !important;
+}
+
+.pop__brand__button__next-swiper, 
+.pop__brand__button__prev-swiper {
+  top: 142px !important;
+}

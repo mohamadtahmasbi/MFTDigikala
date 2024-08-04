@@ -1,0 +1,18 @@
+.partnerships__first-wrapper {
+  height: 296px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerships__first {
+  display: flex;
+  gap: 16px;
+  height: 264px;
+  background-color: white;
+}
+
+.partnership__first-img {
+  height: 264px;
+  border-radius: var(--secondaryBorderRadius);
+}

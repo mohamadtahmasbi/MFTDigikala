@@ -1,0 +1,203 @@
+/*********** Amazings General ************/
+
+.amazings__wrapper {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.amazingsSwiper {
+  max-width: 1336px;
+  height: 294px;
+  background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+  border-radius: var(--secondaryBorderRadius);
+  padding: 20px !important;
+  padding-left: 72px !important;
+}
+
+.amazings {
+  display: flex !important;
+  gap: 4px;
+}
+
+/*********** Amazing Intro ************/
+
+.amazing__intro {
+  width: 126px !important;
+  padding: 0 16px;
+  display: flex !important;
+  font-family: var(--IranYekanMedium) !important;
+  margin-left: 18px;
+
+  .amazings__intro-anchor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.amazing__intro__top-img {
+  width: 88px;
+  height: 88px;
+}
+
+.amazing__intro__countdown {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #fff;
+  display: flex;
+
+  .amazing__intro__countdown__number {
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    line-height: 32px;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    color: #23254e;
+  }
+}
+
+.amazing__intro__bottom-img {
+  width: 80px;
+  height: 80px;
+}
+
+.amazing__intro__all {
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  line-height: 26px;
+
+  svg {
+    path {
+      fill: #fff;
+    }
+  }
+}
+
+/*********** Amazing Items ************/
+
+.amazing {
+  width: 160px !important;
+  background-color: #fff;
+  padding: 8px !important;
+
+  .amazing-anchor {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .amazing-img {
+    width: 132px;
+    height: 132px;
+    align-self: center;
+  }
+
+  .amazing__product__name {
+    font-family: var(--IranYekanRegular);
+    font-size: var(--primaryFontSize);
+    line-height: 20px;
+    color: #62666d;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    overflow: hidden;
+  }
+
+  .amazing__price__off {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--IranYekanBold);
+
+    .amazing__price {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: #3f4064;
+
+      .amazing__price-toman {
+        width: 16px;
+        height: 16px;
+      }
+      .amazing__price__tag {
+        font-size: 14px;
+      }
+    }
+    .amazing__off {
+      font-size: var(--primaryFontSize);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 20px;
+      background-color: #d33a30;
+      color: #fff;
+      border-radius: 50px;
+    }
+  }
+  .amazing__price__strikethrough {
+    font-family: var(--IranYekanRegular);
+    font-size: var(--primaryFontSize);
+    text-decoration: line-through;
+    color: #c0c2c5;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -5px;
+  }
+}
+
+.amazing__first {
+  border-radius: 0 8px 8px 0;
+}
+
+.amazing__all {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 0 0 8px;
+
+  .amazing__all-anchor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--IranYekanRegular);
+    font-size: 14px;
+    line-height: 30px;
+    color: #3f4064;
+
+    .amazing__all__content {
+      width: 51px;
+      height: 51px;
+      border: 2px solid #19bfd3;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .amazing__all-img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+.amazings__button__next-swiper {
+  top: 150px !important;
+  left: 8px !important;
+}
+
+.amazings__button__prev-swiper {
+  top: 150px !important;
+  right: 8px !important;
+}

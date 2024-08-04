@@ -1,0 +1,107 @@
+@import "./swiper-settings.css";
+@import "./header.css";
+@import "./main/a-stories.css";
+@import "./main/b-hero.css";
+@import "./main/c-quickacces.css";
+@import "./main/d-amazings.css";
+@import "./main/e-supermarket-amazings.css";
+@import "./main/f-onsales.css";
+@import "./main/g-main-categories.css";
+@import "./main/h-partnerships-first.css";
+@import "./main/i-pop-brands.css";
+@import "./main/j-partneships-second.css";
+@import "./main/k-yourtastes-first.css";
+@import "./main/l-digiclub.css";
+@import "./main/m-bestseller.css";
+@import "./main/n-yourtastes-second.css";
+@import "./main/o-pop__onsales.css";
+@import "./main/p-hottests.css";
+@import "./main/q-blog.css";
+@import "./footer.css";
+
+@font-face {
+  font-family: IranYekanRegular;
+  src: url("../fonts/iranyekanregular.woff2");
+}
+
+@font-face {
+  font-family: IranYekanMedium;
+  src: url("../fonts/iranyekanmedium.woff");
+}
+
+@font-face {
+  font-family: IranYekanBold;
+  src: url("../fonts/iranyekanbold.woff2");
+}
+
+@font-face {
+  font-family: IranYekanExtrabold;
+  src: url("../fonts/iranyekanextrabold.woff");
+}
+
+:root {
+  --primaryFontSize: 12px;
+  --primaryLineHeight: 26px;
+  --primaryBorderRadius: 8px;
+  --secondaryBorderRadius: 15px;
+  --primaryColor: #e0e0e2;
+  --secondaryColor: #f0f0f1;
+  --IranYekanRegular: IranYekanRegular, sans-serif;
+  --IranYekanMedium: IranYekanMedium, sans-serif;
+  --IranYekanBold: IranYekanBold, sans-serif;
+  --IranYekanExtrabold: IranYekanExtrabold, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--primaryColor);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #c0c2c5;
+}
+
+body {
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.header__hidden {
+  transform: translateY(-100%);
+}
+
+.header::-webkit-scrollbar,
+.header::-webkit-scrollbar-thumb {
+  all: unset;
+}
+
+.main {
+  position: relative;
+  top: 168px;
+}
+
+.footer {
+  position: relative;
+  top: 216px;
+  padding-top: 32px;
+  border-top: 1px solid var(--secondaryColor);
+}
+
+a {
+  text-decoration: none;
+}

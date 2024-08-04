@@ -1,0 +1,24 @@
+.onsales__wrapper {
+  height: 258px;
+  display: flex;
+  justify-content: center;
+}
+
+.onsales {
+  width: 100%;
+  max-width: 1336px;
+  height: 242px;
+  display: flex;
+  gap: 16px;
+}
+
+.onsale-anchor {
+  width: 322px;
+  height: 242px;
+
+  .onsale-img {
+    height: inherit;
+    object-fit: cover;
+    border-radius: var(--secondaryBorderRadius);
+  }
+}

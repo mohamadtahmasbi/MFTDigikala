@@ -1,0 +1,388 @@
+.footer-child {
+  width: 100%;
+  padding: 0 20px;
+}
+
+/*********** Back-to-top and Logo ************/
+
+.backtotop__logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot__logo {
+  display: flex;
+  align-items: center;
+}
+
+.foot__logo-img {
+  width: 113px;
+  height: 30px;
+}
+
+.backtotop-anchor {
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #a1a3a8;
+  padding: 7px 16px;
+  border: 1px solid var(--primaryColor);
+  border-radius: var(--primaryBorderRadius);
+}
+
+.backtotop-icon {
+  width: 24px;
+  height: 24px;
+  transform: rotate(90deg);
+}
+
+/*********** Support ************/
+
+.support__info-wrapper {
+  display: flex;
+  padding: 12px 0 32px;
+}
+
+.support__info {
+  font-family: var(--IranYekanRegular);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #3f4064;
+  display: flex;
+  align-items: center;
+}
+
+.support__info:not(:last-of-type)::after {
+  content: "";
+  width: 1.2px;
+  height: 12px;
+  margin: 0 21px;
+  background-color: #a1a3a8;
+}
+
+/*********** Benefits ************/
+
+.benefits-wrapper {
+  display: flex;
+  height: 104px;
+  justify-content: center;
+}
+
+.benefit {
+  flex-grow: 1;
+}
+
+.benefit-anchor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px 0;
+}
+
+.benefit-img {
+  width: 56px;
+  height: 56px;
+}
+
+.benefit__caption {
+  font-family: var(--IranYekanRegular);
+  font-size: 11px;
+  line-height: 24px;
+  color: #3f4064;
+}
+
+/*********** Footer Navbar ************/
+
+.foot__navbar-wrapper {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 376px 392px 397px 323px;
+  padding: 32px 0;
+}
+
+.foot__navitem {
+  margin-bottom: 8px;
+}
+
+.foot__navtitle {
+  height: 34px;
+  font-family: var(--IranYekanBold);
+  font-size: 16px;
+  line-height: 34px;
+  color: #3f4064;
+}
+
+.foot__navitem-anchor {
+  height: 30px;
+  font-family: var(--IranYekanRegular);
+  font-size: 14px;
+  line-height: 30px;
+  color: #81858b;
+}
+
+.foot__navsocial__title {
+  margin-bottom: 12px;
+}
+
+.foot__navsocial {
+  display: flex;
+}
+
+.foot__navsocial-img {
+  width: 40px;
+  height: 40px;
+  margin-left: 32px;
+}
+
+.foot__newsletter__title {
+  margin: 32px 0 12px 0;
+}
+
+.foot__newsletter {
+  display: flex;
+  position: relative;
+  gap: 8px;
+}
+
+.foot__newsletter-input {
+  height: 48px;
+  padding: 8px;
+  flex-grow: 1;
+  outline: none;
+  font-family: var(--IranYekanRegular);
+  font-size: 15px;
+  line-height: 32px;
+  color: #3f4064;
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: var(--primaryBorderRadius);
+  caret-color: #ef4056;
+  text-indent: 8px;
+
+  &::placeholder {
+    opacity: 0.6;
+  }
+}
+
+.foot__newsletter-input__message-1 {
+  position: absolute;
+  display: none;
+  top: 52px;
+  font-family: var(--IranYekanRegular);
+  font-size: 10px;
+  color: #b2001a;
+}
+
+.foot__newsletter-input:invalid ~ .foot__newsletter-input__message-1 {
+  display: block;
+}
+
+.foot__newsletter-input:placeholder-shown ~ .foot__newsletter-input__message-1 {
+  display: none;
+}
+
+.foot__newsletter-submit {
+  width: 53.7625px;
+  background-color: var(--primaryColor);
+  border-radius: var(--primaryBorderRadius);
+  border: none;
+  font-family: var(--IranYekanBold);
+  font-size: 14px;
+  line-height: 30px;
+  outline: none;
+  color: #fff;
+}
+
+.foot__newsletter-input:valid ~ .foot__newsletter-submit {
+  background-color: #f04856;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*********** Application ************/
+
+.application__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3c4b6d;
+  width: 100%;
+  height: 76px;
+  padding: 8px 20px;
+  border-radius: var(--primaryBorderRadius);
+}
+
+.application-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.application__digikala__logo {
+  width: 44px;
+  height: 44px;
+}
+
+.application__title {
+  font-family: var(--IranYekanMedium);
+  font-size: 21px;
+  line-height: 44px;
+  color: #fff;
+  user-select: none;
+}
+
+.application-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.application__store-anchor {
+  display: flex;
+}
+
+.application__store-img {
+  width: 142px;
+}
+
+.application__more-anchor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.application__more-img {
+  width: 42px;
+  height: 44px;
+  border-radius: 4px;
+}
+
+/*********** About ************/
+
+.about__wrapper {
+  display: flex;
+  padding: 32px 0;
+  margin-top: 28px;
+  border-top: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
+}
+
+.about__text {
+  margin-bottom: 10px;
+}
+
+.about__text-wrapper {
+  flex-grow: 1;
+}
+
+.about__title {
+  font-family: var(--IranYekanBold);
+  font-size: 21px;
+  line-height: 44px;
+  color: #62666d;
+}
+
+.about__paragraph {
+  font-family: var(--IranYekanRegular);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  background: linear-gradient(#81858b, #bbb9bd, #f2f1f1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.about__text__more-anchor {
+  display: flex;
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  align-items: center;
+  color: #19bfd3;
+}
+
+.about__text__more-img {
+  width: 18px;
+  height: 18px;
+}
+
+.licenses {
+  display: flex;
+  gap: 8px;
+  height: 110px;
+  margin-right: 76px;
+}
+
+.license {
+  height: inherit;
+  width: 109px;
+  border: 1px solid #e0e0e2;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--primaryBorderRadius);
+
+  .license-img {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+  }
+}
+
+/*********** Copyright ************/
+
+.copyright-wrapper {
+  padding: 32px 0;
+}
+
+.copyright__text {
+  font-family: var(--IranYekanRegular);
+  font-size: 11px;
+  line-height: 24px;
+  color: #81858b;
+  text-align: center;
+}
+
+/*********** Sub Brands ************/
+
+.subbrands-wrapper {
+  background-color: var(--primaryColor);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.subbrand {
+  height: 80px;
+  background-color: var(--secondaryColor);
+  flex-grow: 1;
+
+  &:not(:nth-of-type(9)),
+  &:not(:nth-of-type(10)),
+  &:not(:nth-of-type(11)),
+  &:not(:nth-of-type(12)),
+  &:not(:nth-of-type(13)),
+  &:not(:nth-of-type(14)),
+  &:not(:nth-of-type(15)) {
+    width: 190px;
+  }
+}
+
+.subbrand-anchor {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.subbrand-img {
+  height: 20px;
+}
