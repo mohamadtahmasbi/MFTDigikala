@@ -1,5 +1,8 @@
 @import "./swiper-settings.css";
 @import "./header.css";
+@import "./footer.css";
+
+/*********** Main Page ***********/
 @import "./main/a-stories.css";
 @import "./main/b-hero.css";
 @import "./main/c-quickacces.css";
@@ -17,7 +20,17 @@
 @import "./main/o-pop__onsales.css";
 @import "./main/p-hottests.css";
 @import "./main/q-blog.css";
-@import "./footer.css";
+/*********** Main Page ***********/
+
+/*********** Amazings ***********/
+@import "./amazings/a-amazings-banner.css";
+@import "./amazings/b-amazings-heros.css";
+@import "./amazings/c-amazings-categories.css";
+@import "./amazings/d-amazings__handpicked.css";
+@import "./amazings/e-amazings-runningout.css";
+@import "./amazings/f-amazings__supermarket.css";
+@import "./amazings/h-amazings__digiplususers.css";
+/*********** Amazings ***********/
 
 @font-face {
   font-family: IranYekanRegular;

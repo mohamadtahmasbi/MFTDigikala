@@ -1,0 +1,193 @@
+.amazings__handpicked-wrapper {
+  width: 100%;
+  height: 442px;
+  padding: 28px 0;
+  background: linear-gradient(135deg, #ef4056 0, #ef394e 100%);
+}
+
+.amazingsHandpickedSwiper {
+  padding-left: 108px !important;
+}
+
+.amazings__handpicked {
+  gap: 8px;
+}
+
+.amazing__handpicked {
+  width: fit-content !important;
+}
+
+.amazing__handpicked__intro {
+  width: 145px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  box-sizing: content-box;
+  padding: 0 32px !important;
+}
+
+.amazing__handpicked__title-img {
+  width: 120px;
+  height: 120px;
+}
+
+.amazing__handpicked__image-img {
+  width: 145px;
+  height: 145px;
+  box-sizing: content-box;
+  padding-bottom: 14px;
+}
+
+.amazing__handpicked-anchor {
+  width: 192px;
+  height: 386px;
+  background-color: #fff;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--primaryBorderRadius);
+}
+
+.amazing__handpicked__type {
+  height: 26px;
+  padding: 6px 0;
+  margin-bottom: 4px;
+
+  .amazing__handpicked__type-img {
+    height: 14px;
+  }
+}
+
+.amazing__handpicked-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.amazing__handpicked-img {
+  width: 150px;
+  height: 150px;
+}
+
+.amazing__handpicked__name {
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #3f4064;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.amazing__handpicked__delivery {
+  font-family: var(--IranYekanRegular);
+  font-size: 11px;
+  line-height: 24px;
+  color: #62666d;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+
+  .amazing__handpicked__delivery-img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.amazing__handpicked__priceandoff {
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .amazing__handpicked__off {
+    width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    border-radius: 50px;
+    font-family: var(--IranYekanBold);
+    font-size: var(--primaryFontSize);
+    line-height: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+
+  .amazing__handpicked___price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    .amazing__handpicked__price__tag {
+      font-family: var(--IranYekanBold);
+      font-size: 16px;
+      line-height: 34px;
+      color: #3f4064;
+    }
+    .amazing__handpicked__toman {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.amazing__handpicked__price__strikethrough {
+  font-family: var(--IranYekanRegular);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #c0c2c5;
+  text-align: left;
+  text-decoration: line-through;
+  margin-left: 20px;
+}
+
+.amazing__handpicked__soldrange {
+  height: 4px;
+  background-color: var(--secondaryColor);
+  border-radius: 50px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 4px;
+
+  .amazing__handpicked__soldrange__filled {
+    height: inherit;
+    width: 50%;
+    background-color: #ef394e;
+    border-radius: 50px;
+  }
+}
+
+.amazing__handpicked__countdown_and_soldpercent {
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #ef394e;
+  display: flex;
+  justify-content: space-between;
+
+  .amazing__handpicked__soldpercent {
+    display: flex;
+    gap: 4px;
+    font-family: var(--IranYekanRegular);
+    font-size: 11px;
+    line-height: 24px;
+    color: #81858b;
+
+    .amazing__handpicked__soldpercent-span {
+      font-family: var(--IranYekanRegular);
+      font-size: 10px;
+      color: #ef394e;
+    }
+  }
+}
+
+.amazing__handpicked__countdown {
+  display: flex;  
+  gap: 4px;
+  font-weight: 700;
+}

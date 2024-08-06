@@ -1,0 +1,66 @@
+.amazings__categories-wrapper {
+  height: 206px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.amazings__categories {
+  width: 100% !important;
+  padding-right: 8px !important;
+}
+
+.amazings__category {
+  width: 114px !important;
+  height: 166px !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+  padding-left: 32px !important;
+}
+
+.amazings__category:last-of-type {
+  padding-left: 8px !important;
+}
+
+.amazings__category-anchor {
+  height: 166px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 0;
+  gap: 8px;
+  color: #0c0c0c;
+  font-family: var(--IranYekanRegular);
+}
+
+.amazings__category__first-anchor {
+  font-family: var(--IranYekanBold);
+  background-color: var(--secondaryColor);
+  border-radius: var(--primaryBorderRadius);
+  padding: 8px 12px;
+}
+
+.amazings__category-img {
+  width: 90px;
+  width: 90px;
+}
+
+.amazings__category__name {
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  text-align: center;
+}
+
+.amazings__categories__button__prev-swiper {
+  right: 8px !important;
+}
+
+.amazings__categories__button__next-swiper {
+  left: 8px !important;
+}
+
+.amazings__categories__button__next-swiper,
+.amazings__categories__button__prev-swiper {
+  top: 85px !important;
+}

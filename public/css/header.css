@@ -368,7 +368,7 @@
 
 .nav__categories:hover ~ .categories__active-background {
   width: 100vw;
-  height: 1000px;
+  height: 100vh;
   background-color: #000;
   opacity: 0.5;
   position: absolute;

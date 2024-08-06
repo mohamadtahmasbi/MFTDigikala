@@ -1,0 +1,104 @@
+.amazings__digiplususers {
+  display: flex;
+  justify-content: center;
+  margin: 0 16px;
+}
+
+.amazings__digiplususers-anchor {
+  width: 100%;
+  max-width: 1496px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: var(--secondaryBorderRadius);
+  background: linear-gradient(
+    274.36deg,
+    #941b8015  10%,
+    var(--secondaryColor) 100%
+  );
+}
+
+.amazings__digiplususers-right {
+  background: url(../../images/b-amazings/h-amazings-digiplususers/amazings-digiplususers-right-pattern.svg)
+    no-repeat right;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 28px 4px 0;
+}
+
+.amazings__digiplususers__right__banner {
+  height: 83px;
+}
+
+.amazings__digiplususers-left {
+  background: url("../../images/b-amazings/h-amazings-digiplususers/amazings-digiplususers-left-pattern.svg") no-repeat left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  padding-left: 26px;
+}
+
+.amazings__digiplususers__left__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--IranYekanBold);
+  font-size: 16px;
+  line-height: 34px;
+  color: #b12ba4;
+
+  .amazings__digiplususers__left__title-img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.amazings__digiplususers__countdown_and_remaining {
+  display: flex;
+  gap: 16px;
+}
+
+.amazings__digiplususers__countdown-wrapper {
+  display: flex;
+  gap: 12px;
+
+  .amazings__digiplususers__countdown {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: var(--primaryBorderRadius);
+
+    .amazings__digiplususers__countdown__number {
+      font-family: var(--IranYekanBold);
+      font-size: 15px;
+      line-height: 23px;
+      color: #941b80;
+    }
+    .amazings__digiplususers__countdown__unit {
+      font-family: var(--IranYekanRegular);
+      font-size: 7px;
+      color: #941b80;
+    }
+  }
+}
+
+.amazings__digiplususers__remaining {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--IranYekanBold);
+  font-size: var(--primaryFontSize);
+  line-height: var(--primaryLineHeight);
+  color: #941b80;
+
+  .amazings__digiplususers__remaining-img {
+    width: 16px;
+    height: 16px;
+  }
+}

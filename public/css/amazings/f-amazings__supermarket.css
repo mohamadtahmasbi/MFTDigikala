@@ -1,13 +1,13 @@
-.supermarket__amazings {
-  height: 142px;
+.amazings__supermarket {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin: 25px 0 8px 0;
 }
 
-.supermarket__amazings-anchor {
+.amazings__supermarket-anchor {
   width: 100%;
-  max-width: 1336px;
+  max-width: 1496px;
   height: 110px;
   border-radius: var(--secondaryBorderRadius);
   font-family: var(--IranYekanBold);
@@ -22,7 +22,7 @@
   background-color: #f0f0f1;
 }
 
-.supermarket__amazings-right {
+.amazings__supermarket-right {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,11 +30,11 @@
   padding-right: 40px;
 }
 
-.supermarket__amazings-title {
+.amazings__supermarket-title {
   width: 250px;
 }
 
-.supermarket__amazings__off {
+.amazings__supermarket__off {
   width: 110px;
   height: 28px;
   background-color: #489b4a;
@@ -46,23 +46,23 @@
   align-items: center;
 }
 
-.supermarket__amazings-left {
+.amazings__supermarket-left {
   height: 100%;
   display: flex;
   align-items: center;
   gap: 8px;
-  background: url("../../images/a-main/e-supermarket-amazings/super-amazing-1.svg");
+  background: url("../../images/b-amazings/g-amazings-supermarket/amazings-supermarket-1.svg");
   background-repeat: no-repeat;
   background-position: 0 5px;
   padding-left: 40px;
 }
 
-.supermarket__amazings__products {
+.amazings__supermarket__products {
   display: flex;
   gap: 8px;
 }
 
-.supermarket__amazings__product {
+.amazings__supermarket__product {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,13 +73,13 @@
   background-color: #fff;
   border-radius: 100%;
 
-  .supermarket__amazings__product-img {
+  .amazings__supermarket__product-img {
     width: 58px;
     height: 58px;
     border-radius: 100%;
   }
 
-  .supermarket__amazings__product__off {
+  .amazings__supermarket__product__off {
     position: absolute;
     width: 34px;
     height: 20px;
@@ -94,7 +94,7 @@
   }
 }
 
-.supermarket__amazings__more {
+.amazings__supermarket__more {
   width: 143px;
   height: 50px;
   border-radius: 100px;

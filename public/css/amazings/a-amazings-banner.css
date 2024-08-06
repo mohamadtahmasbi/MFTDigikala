@@ -1,0 +1,7 @@
+.amazings__banner {
+  width: 100%;
+  height: 64px;
+  background-color: #F1474D;
+  display: flex;
+  justify-content: center;
+}
