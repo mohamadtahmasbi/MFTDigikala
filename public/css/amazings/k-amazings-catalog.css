@@ -24,10 +24,10 @@
   border: 1px solid var(--primaryColor);
   position: sticky;
   top: 115px;
-  height: 589.6px;
+  height: 590px;
   overflow-y: auto;
   width: 268px;
-  padding: 0 20px 12px 16px;
+  padding: 0 20px 0 16px;
 
   &::-webkit-scrollbar,
   &::-webkit-scrollbar-thumb {
@@ -37,9 +37,9 @@
 }
 
 .filter__type {
-  padding: 13px 0;
+  padding: 12px 0;
 
-  &:last-of-type {
+  &:last-child {
     padding-bottom: 0;
   }
 
@@ -402,7 +402,7 @@
 }
 
 .filter__type__seller_type__names {
-  margin-top: 28px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
 }
