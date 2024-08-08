@@ -30,6 +30,9 @@
 @import "./amazings/e-amazings-runningout.css";
 @import "./amazings/f-amazings__supermarket.css";
 @import "./amazings/h-amazings__digiplususers.css";
+@import "./amazings/i-amazings-custom.css";
+@import "./amazings/j-amazings-tomorrow.css";
+@import "./amazings/k-amazings-catalog.css";
 /*********** Amazings ***********/
 
 @font-face {
@@ -105,7 +108,7 @@ body {
 
 .main {
   position: relative;
-  top: 168px;
+  top: 108px;
 }
 
 .footer {

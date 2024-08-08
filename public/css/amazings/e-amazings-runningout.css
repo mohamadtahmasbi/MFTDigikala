@@ -112,7 +112,7 @@
   gap: 4px;
   margin-bottom: 8px;
 
-  .amazing__handpicked__delivery-img {
+  .amazing__runningout__delivery-img {
     width: 18px;
     height: 18px;
   }
@@ -209,4 +209,17 @@
   display: flex;
   gap: 4px;
   font-weight: 700;
+}
+
+.amazings__runningout__button__prev-swiper {
+  right: 8px !important;
+}
+
+.amazings__runningout__button__next-swiper {
+  left: 8px !important;
+}
+
+.amazings__runningout__button__next-swiper,
+.amazings__runningout__button__prev-swiper {
+  top: 270px !important;
 }

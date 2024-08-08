@@ -1,0 +1,143 @@
+.amazings__tomorrow-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.amazings__tomorrow {
+  width: 100%;
+  max-width: 1496px;
+  height: 110px;
+  margin: 25px 0 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f5f5f5;
+  border-radius: var(--secondaryBorderRadius);
+  background-image: linear-gradient(
+    267.6deg,
+    rgba(230, 18, 61, 0.3),
+    hsla(0, 0%, 95%, 0)
+  );
+  background-repeat: no-repeat;
+  background-position: 1050px;
+}
+
+.amazings__tomorrow-anchor {
+  height: 100%;
+  border-radius: var(--secondaryBorderRadius);
+  font-family: var(--IranYekanBold);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    135deg,
+    rgba(239, 57, 78, 0.035) 0,
+    rgba(242, 242, 242, 0) 100%
+  );
+}
+
+.amazings__tomorrow-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 60px;
+}
+
+.amazings__tomorrow__title {
+  font-size: var(--IranYekanBold);
+  font-size: 11px;
+  line-height: 24px;
+  color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+
+  .amazings__tomorrow__title-img {
+    height: 28px;
+  }
+}
+
+.amazings__tomorrow__countdown {
+  font-family: var(--IranYekanBold);
+  font-size: 15px;
+  line-height: 32px;
+  color: #23254e;
+  display: flex;
+  gap: 4px;
+  font-weight: 700;
+
+  .amazings__tomorrow__countdown__number {
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+  }
+}
+
+.amazings__tomorrow-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: url("../../images/b-amazings/j-amazings-tomorrow/amazings-tomorrow-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: 0 5px;
+  padding-left: 40px;
+}
+
+.amazings__tomorrow__products {
+  display: flex;
+  gap: 8px;
+}
+
+.amazings__tomorrow__product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  width: 74px;
+  height: 74px;
+  background-color: #fff;
+  border-radius: 100%;
+
+  .amazings__tomorrow__product-img {
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+  }
+
+  .amazings__tomorrow__product__off {
+    position: absolute;
+    width: 34px;
+    height: 20px;
+    right: 0;
+    bottom: 0;
+    border-radius: 100px;
+    font-size: 12px;
+    background-color: #d33a30;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+  }
+}
+
+.amazings__tomorrow__more {
+  width: 143px;
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #fff;
+  font-size: 12px;
+  color: #ef394e;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

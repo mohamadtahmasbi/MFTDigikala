@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const countdownContainers = document.querySelectorAll(
-    ".amazing__handpicked__countdown"
+    ".amazings__tomorrow__countdown"
   );
 
   function toPersianDigits(num) {
@@ -8,16 +8,16 @@ document.addEventListener("DOMContentLoaded", () => {
     return num.toString().replace(/\d/g, (d) => persianDigits[d]);
   }
 
-  countdownContainers.forEach((container) => {
+  countdownContainers.forEach((container, index) => {
     const countdownElements = {
-      hours: container.querySelectorAll(
-        ".amazing__runningout__countdown__number"
+      hours: document.querySelectorAll(
+        ".amazings__tomorrow__countdown__number"
       )[2],
-      minutes: container.querySelectorAll(
-        ".amazing__runningout__countdown__number"
+      minutes: document.querySelectorAll(
+        ".amazings__tomorrow__countdown__number"
       )[1],
-      seconds: container.querySelectorAll(
-        ".amazing__runningout__countdown__number"
+      seconds: document.querySelectorAll(
+        ".amazings__tomorrow__countdown__number"
       )[0],
     };
 
