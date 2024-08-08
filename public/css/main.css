@@ -106,13 +106,17 @@ body {
   all: unset;
 }
 
-.main {
-  position: relative;
-  top: 168px;
+.main__page-wrapper {
+  .main {
+    position: relative;
+    top: 168px;
+  }
 }
 
-.amazings__page-wrapper .main {
-  top: 108px;
+.amazings__page-wrapper {
+  .main {
+    top: 108px;
+  }
 }
 
 .footer {
