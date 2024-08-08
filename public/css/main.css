@@ -108,6 +108,10 @@ body {
 
 .main {
   position: relative;
+  top: 168px;
+}
+
+.amazings__page-wrapper .main {
   top: 108px;
 }
 
