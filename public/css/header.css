@@ -349,10 +349,8 @@
   display: none;
 }
 
-.amazings__page-wrapper {
-  .categories__hover-wrapper {
-    top: 108px;
-  }
+.amazings__categories__hover-wrapper {
+  top: 108px;
 }
 
 .nav__categories:hover .categories__hover-wrapper {
