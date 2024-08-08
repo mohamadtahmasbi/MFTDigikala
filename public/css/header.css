@@ -343,10 +343,16 @@
   position: absolute;
   justify-content: flex-start;
   right: 15px;
-  top: 108px;
+  top: 168px;
   height: 490px;
   z-index: 1;
   display: none;
+}
+
+.amazings__page-wrapper {
+  .categories__hover-wrapper {
+    top: 108px;
+  }
 }
 
 .nav__categories:hover .categories__hover-wrapper {
