@@ -23,7 +23,7 @@
   border-radius: var(--primaryBorderRadius);
   border: 1px solid var(--primaryColor);
   position: sticky;
-  top: 115px;
+  top: 90px;
   height: 590px;
   overflow-y: auto;
   width: 268px;

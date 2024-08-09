@@ -115,6 +115,7 @@ body {
 
 .amazings__page-wrapper {
   .main {
+    position: relative;
     top: 108px;
   }
 }
