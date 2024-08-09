@@ -36,7 +36,7 @@
                   alt=" "
                   class="login-icon"
                 />
-                ﻭﺭﻭﺩ <span class="login__seperator">❙</span> ﺛﺒﺖﻧﺎﻡ
+                ﻭﺭﻭﺩ <span class="login__seperator"></span> ﺛﺒﺖﻧﺎﻡ
               </a>
             </div>
           </div>
@@ -3723,14 +3723,308 @@
             </div>
           </div>
           <div class="city__selection">
-            <a href="" class="city__selection-anchor">
+            <label
+              for="city__selection__open-button"
+              class="city__selection__open-button"
+            >
               <img
                 src="./public/images/icons/location.svg"
                 alt=" "
                 class="city__selection-icon"
               />
               ﻟﻄﻔﺎ ﺷﻬﺮ ﺧﻮﺩ ﺭا اﻧﺘﺨﺎﺏ ﮐﻨﯿﺪ
-            </a>
+            </label>
+            <input
+              type="radio"
+              name="city__selection"
+              id="city__selection__open-button"
+              class="city__selection__open-radio"
+            />
+            <label
+              class="city__selection__open-background"
+              for="city__selection__close-button"
+            ></label>
+            <div class="city__selection__open-wrapper">
+              <input
+                type="radio"
+                id="city__selection__close-button"
+                name="city__selection"
+                class="city__selection__close-radio"
+              />
+              <div class="city__selection__open">
+                <div class="city__selection__head">انتخاب شهر</div>
+                <div class="city__selection__items">
+                  <div class="city__selection__pad city__selection__auto">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="
+                        width: 24px;
+                        height: 24px;
+                        fill: var(--color-icon-secondary);
+                      "
+                      width="24"
+                      height="24"
+                      class="city__selection__auto-img"
+                    >
+                      <defs>
+                        <symbol
+                          id="autoDetectOn"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M20.94 11A8.994 8.994 0 0013 3.06V1h-2v2.06A8.994 8.994 0 003.06 11H1v2h2.06A8.994 8.994 0 0011 20.94V23h2v-2.06A8.994 8.994 0 0020.94 13H23v-2h-2.06zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm-7 4c0 3.87 3.13 7 7 7s7-3.13 7-7-3.13-7-7-7-7 3.13-7 7z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <g fill="#19BFD3">
+                        <path
+                          fill-rule="evenodd"
+                          d="M20.94 11A8.994 8.994 0 0013 3.06V1h-2v2.06A8.994 8.994 0 003.06 11H1v2h2.06A8.994 8.994 0 0011 20.94V23h2v-2.06A8.994 8.994 0 0020.94 13H23v-2h-2.06zM12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm-7 4c0 3.87 3.13 7 7 7s7-3.13 7-7-3.13-7-7-7-7 3.13-7 7z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </g>
+                    </svg>
+                    مکان‌یابی خودکار
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    آذربایجان شرقی
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    آذربایجان غربی
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    اردبیل
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    اصفهان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    البرز
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    ایلام
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    بوشهر
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    تهران
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    چهار محال و بختیاری
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    خراسان جنوبی
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    خوزستان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    زنجان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    سمنان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    سیستان و بلوچستان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    فارس
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    قزوین
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    قم
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    کردستان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    کرمان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    کرمانشاه
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    کهگیلویه و بویراحمد
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    گلستان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    گیلان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    لرستان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    مازندران
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    مرکزی
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    هرمزگان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    همدان
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                  <div class="city__selection__pad city__selection__item">
+                    یزد
+                    <img
+                      src="./public/images/01-header/city-selection-item-icon.svg"
+                      alt=""
+                      class="city__selection__item-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </header>

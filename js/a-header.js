@@ -75,27 +75,22 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
 /////////////// Hide overflow opening city selection
 
-document.addEventListener('DOMContentLoaded', () => {
-  const toggleRadio1 = document.getElementById('city__selection__open-button');
-  const toggleRadio2 = document.getElementById('city__selection__close-button');
-  const transitionDiv = document.querySelector('.city__selection__open-button');
-
-  // Function to manage body overflow
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleRadio1 = document.getElementById("city__selection__open-button");
+  const toggleRadio2 = document.getElementById("city__selection__close-button");
+  const transitionDiv = document.querySelector(".city__selection__open-button");
   function handleOverflow() {
-      if (toggleRadio1.checked) {
-          document.body.style.overflow = 'hidden'; // Disable scroll when the div is open
-      } else {
-          document.body.style.overflow = ''; // Re-enable scroll when the div is closed
-      }
+    if (toggleRadio1.checked) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
   }
 
-  // Listen for changes on the radio buttons
-  toggleRadio1.addEventListener('change', handleOverflow);
-  toggleRadio2.addEventListener('change', handleOverflow);
+  toggleRadio1.addEventListener("change", handleOverflow);
+  toggleRadio2.addEventListener("change", handleOverflow);
 
-  // Call the function initially to set the correct state
   handleOverflow();
 });

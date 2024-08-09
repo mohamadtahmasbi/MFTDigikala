@@ -43,6 +43,9 @@
 }
 
 .login {
+  height: 40px;
+  display: flex;
+  align-items: center;
   line-height: var(--primaryLineHeight);
   font-size: var(--primaryFontSize);
   border-radius: var(--primaryBorderRadius);
@@ -56,16 +59,18 @@
   font-size: var(--primaryFontSize);
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
 
   .login__seperator {
-    margin: 2px 1px 1px 1px;
-    font-size: 17px;
+    margin: 2px 1px 4px 1px;
+    width: 1px;
+    height: 12px;
+    background-color: #0c0c0c;
   }
 }
 
 .login-icon {
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .topnav__right {
