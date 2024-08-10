@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-/////////////// Hide overflow opening city selection
+/////////////// Hide overflow when opening city selection
 
 document.addEventListener("DOMContentLoaded", () => {
   const toggleRadio1 = document.getElementById("city__selection__open-button");

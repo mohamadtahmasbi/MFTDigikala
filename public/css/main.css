@@ -1,6 +1,8 @@
 @import "./swiper-settings.css";
 @import "./header.css";
 @import "./footer.css";
+@import "./login.css";
+@import "./modals.css";
 
 /*********** Main Page ***********/
 @import "./main/a-stories.css";
